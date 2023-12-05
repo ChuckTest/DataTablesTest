@@ -108,7 +108,7 @@ function formatDate(data) {
   };
   //https://live.datatables.net/wuyamacu/1/edit
   var table = $("#example").DataTable({
-      //serverSide: true,
+      serverSide: true,
       searching: false,
       ordering: false,
       responsive: true,
@@ -117,7 +117,7 @@ function formatDate(data) {
       buttons: [
           { extend: 'csv', exportOptions: { columns: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] } }
       ],
-      data: data.data,
+      ajax:"examples/ajax/data/arrays.txt",
    columns: [
     {
       data: 'NomineeUniqueIDs', 

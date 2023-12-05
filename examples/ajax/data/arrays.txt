@@ -85,4 +85,4 @@
       "IsDirectRecognition": false
     }
   ]
-};
+}
