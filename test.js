@@ -224,7 +224,7 @@ function formatDate(data) {
                               }
     },
     {
-      data:null,
+      //data:null,
     render: function(data, type, row) {
                                   return '<a class="btn btn-primary"  href="/UK_60_Dev_Admin/Nomination/GetNominationDetail?NominationID=' +
                                       row.TransactionID +
