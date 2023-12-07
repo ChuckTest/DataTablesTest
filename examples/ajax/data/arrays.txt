@@ -1,62 +1,64 @@
-[
-    {
-        "DetailID": 9183325,
-        "StatementType": 4,
-        "PointServiceID": 36,
-        "Balance": 400.0000,
-        "StatementDetail": 2,
-        "CostCentre": "",
-        "Date": "\/Date(1667253628590)\/",
-        "EncryptDetailID": "nmNbJSx9W49I1VdNq3jrJA%3d%3d",
-        "PointAuditDescription": "Long Service Award",
-        "BalanceFormat": "£400.00"
-    },
-    {
-        "DetailID": 987092,
-        "StatementType": 1,
-        "PointServiceID": 25,
-        "Balance": -2.0000,
-        "StatementDetail": 0,
-        "CostCentre": "31",
-        "Date": "\/Date(1651127377340)\/",
-        "EncryptDetailID": "idkTlYcvBkdAJ59i8Vt7XA%3d%3d",
-        "PointAuditDescription": "22",
-        "BalanceFormat": "-£2.00"
-    },
-    {
-        "DetailID": 987088,
-        "StatementType": 1,
-        "PointServiceID": 23,
-        "Balance": 12.0000,
-        "StatementDetail": 0,
-        "CostCentre": "111",
-        "Date": "\/Date(1651127210130)\/",
-        "EncryptDetailID": "07KyRZ8XtYYZwXjIoe%2f3yQ%3d%3d",
-        "PointAuditDescription": "1",
-        "BalanceFormat": "£12.00"
-    },
-    {
-        "DetailID": 882571,
-        "StatementType": 1,
-        "PointServiceID": 24,
-        "Balance": 100.0000,
-        "StatementDetail": 0,
-        "CostCentre": null,
-        "Date": "\/Date(1640758043960)\/",
-        "EncryptDetailID": "L5HrBM47NgkD7mBWtY6o8A%3d%3d",
-        "PointAuditDescription": "KPI",
-        "BalanceFormat": "£100.00"
-    },
-    {
-        "DetailID": 882563,
-        "StatementType": 1,
-        "PointServiceID": 23,
-        "Balance": 12.0000,
-        "StatementDetail": 0,
-        "CostCentre": null,
-        "Date": "\/Date(1640744884857)\/",
-        "EncryptDetailID": "unJlT88gZ90PoF2m55Pw3w%3d%3d",
-        "PointAuditDescription": "12",
-        "BalanceFormat": "£12.00"
-    }
-]
+{
+    "data": [
+        {
+            "DetailID": 9183325,
+            "StatementType": 4,
+            "PointServiceID": 36,
+            "Balance": 400.0000,
+            "StatementDetail": 2,
+            "CostCentre": "",
+            "Date": "\/Date(1667253628590)\/",
+            "EncryptDetailID": "nmNbJSx9W49I1VdNq3jrJA%3d%3d",
+            "PointAuditDescription": "Long Service Award",
+            "BalanceFormat": "£400.00"
+        },
+        {
+            "DetailID": 987092,
+            "StatementType": 1,
+            "PointServiceID": 25,
+            "Balance": -2.0000,
+            "StatementDetail": 0,
+            "CostCentre": "31",
+            "Date": "\/Date(1651127377340)\/",
+            "EncryptDetailID": "idkTlYcvBkdAJ59i8Vt7XA%3d%3d",
+            "PointAuditDescription": "22",
+            "BalanceFormat": "-£2.00"
+        },
+        {
+            "DetailID": 987088,
+            "StatementType": 1,
+            "PointServiceID": 23,
+            "Balance": 12.0000,
+            "StatementDetail": 0,
+            "CostCentre": "111",
+            "Date": "\/Date(1651127210130)\/",
+            "EncryptDetailID": "07KyRZ8XtYYZwXjIoe%2f3yQ%3d%3d",
+            "PointAuditDescription": "1",
+            "BalanceFormat": "£12.00"
+        },
+        {
+            "DetailID": 882571,
+            "StatementType": 1,
+            "PointServiceID": 24,
+            "Balance": 100.0000,
+            "StatementDetail": 0,
+            "CostCentre": null,
+            "Date": "\/Date(1640758043960)\/",
+            "EncryptDetailID": "L5HrBM47NgkD7mBWtY6o8A%3d%3d",
+            "PointAuditDescription": "KPI",
+            "BalanceFormat": "£100.00"
+        },
+        {
+            "DetailID": 882563,
+            "StatementType": 1,
+            "PointServiceID": 23,
+            "Balance": 12.0000,
+            "StatementDetail": 0,
+            "CostCentre": null,
+            "Date": "\/Date(1640744884857)\/",
+            "EncryptDetailID": "unJlT88gZ90PoF2m55Pw3w%3d%3d",
+            "PointAuditDescription": "12",
+            "BalanceFormat": "£12.00"
+        }
+    ]
+}
