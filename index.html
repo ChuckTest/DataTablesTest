@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-    <link href="DataTables-2023-1205-001/datatables.css" rel="stylesheet">
-    <script src="DataTables-2023-1205-001/datatables.js"></script>
-    <link href="test.css" rel="stylesheet" type="text/css" />
-    <meta charset=utf-8 />
-    <title>DataTables - local test</title>
-  </head>
-  <body>
-    <div class="container">
-<table id="example" class="table table-bordered" width="100%">
-<thead>
-	<tr>
-		<th data-sort-ignore="false" style="max-width: 100px; width: 100px;" class="sorting_disabled" rowspan="1" colspan="1">Unique ID</th>
-		<th class="sorting_disabled" rowspan="1" colspan="1" style="width: 120px;">From</th>
-		<th class="sorting_disabled" rowspan="1" colspan="1" style="width: 115px;">to</th>
-		<th data-hide="phone,tablet" class="sorting_disabled" rowspan="1" colspan="1" style="width: 80px;">Dept.</th>
-		<th data-hide="phone,tablet" class="sorting_disabled" rowspan="1" colspan="1" style="width: 131px;">Line manager</th>
-		<th data-hide="phone,tablet" class="sorting_disabled" rowspan="1" colspan="1" style="width: 139px;">Budget holder</th>
-		<th class="sorting_disabled" rowspan="1" colspan="1" style="width: 147px;">Company value</th>
-		<th data-hide="phone" class="sorting_disabled" rowspan="1" colspan="1" style="width: 136px;">Date raised</th>
-		<th data-hide="phone,tablet" class="sorting_disabled" rowspan="1" colspan="1" style="width: 136px;">Date actioned</th>
-		<th class="sorting_disabled" rowspan="1" colspan="1" style="width: 160px;">Amount awarded </th>
-		<th data-hide="phone,tablet" class="sorting_disabled" rowspan="1" colspan="1" style="width: 81px;">Status</th>
-		<th data-hide="phone" class="sorting_disabled" rowspan="1" colspan="1" style="width: 78px;">Details</th>
-	</tr>
-</thead>
+<head>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-        <tbody>
-          
-        </tbody>
-      </table>
-    </div>
-    <script src="test.js"></script>
-  </body>
+  <link href="DataTables-2023-1205-001/datatables.css" rel="stylesheet">
+  <script src="DataTables-2023-1205-001/datatables.js"></script>
+  <link href="test.css" rel="stylesheet" type="text/css" />
+  <meta charset=utf-8 />
+  <title>DataTables - local test</title>
+</head>
+
+<body>
+  <div class="container">
+    <table id="userStatementListTable" class="table table-bordered" width="100%">
+      <thead>
+        <tr>
+          <th class="center noExport">Date</th>
+          <th class="center dt-center sorting sorting_desc" tabindex="0" aria-controls="userStatementListTable"
+            rowspan="1" colspan="1" style="width: 231px;" aria-label="Date: activate to sort column ascending">Date</th>
+          <th class="center dt-center sorting" tabindex="0" aria-controls="userStatementListTable" rowspan="1"
+            colspan="1" style="width: 388px;" aria-label="Description: activate to sort column ascending">Description
+          </th>
+          <th class="center dt-center sorting" tabindex="0" aria-controls="userStatementListTable" rowspan="1"
+            colspan="1" style="width: 258px;" aria-label="Amount: activate to sort column ascending">Amount</th>
+          <th class="center dt-center sorting" tabindex="0" aria-controls="userStatementListTable" rowspan="1"
+            colspan="1" style="width: 361px;" aria-label="Cost Centre: activate to sort column ascending">Cost Centre
+          </th>
+          <th class="hideSort noExport dt-center sorting" tabindex="0" aria-controls="userStatementListTable"
+            rowspan="1" colspan="1" style="width: 204px;" aria-label=": activate to sort column ascending"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+  <script src="test.js"></script>
+</body>
+
 </html>
